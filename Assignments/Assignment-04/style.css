@@ -176,3 +176,7 @@ body {
     color: #005a99;
     text-decoration: none;
   }  
+
+  img{
+    align-items: center;
+  }
