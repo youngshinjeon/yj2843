@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(238, 255, 0);
+
+}
+
+h1{
+    color: rgb(255, 106, 0);
+
+}
+
+h3{
+    color: crimson;
+}
+p{
+    color: rgb(255, 152, 9);
+    font-size: 10px;
+
+}
+
+em{
+    color: darkred;
+}
