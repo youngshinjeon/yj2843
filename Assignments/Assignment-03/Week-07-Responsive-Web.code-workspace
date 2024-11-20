@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "../../Week-07-Responsive-Web"
+		},
+		{
+			"path": "../../Week-01 Hello World"
+		},
+		{
+			"path": "../../Week-04 CSS Basics"
+		},
+		{
+			"path": "../../Week-03 Visual Information Design"
+		},
+		{
+			"path": "../../Week-05 Color, Type & Gestalt"
+		},
+		{
+			"path": "../../Week-06 Layout and Grids"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Week-08-Javascript-Basics"
+		},
+		{
+			"path": "../../Week-02 HTML Basics"
+		}
+	],
+	"settings": {}
+}
