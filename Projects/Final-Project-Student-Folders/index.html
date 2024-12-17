@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TICKETS IN NEW YORK</title>
+    <link rel="stylesheet" href="styles.css">
+    <style id="__web-inspector-hide-shortcut-style__">
+
+.__web-inspector-hide-shortcut__, .__web-inspector-hide-shortcut__ *, .__web-inspector-hidebefore-shortcut__::before, .__web-inspector-hideafter-shortcut__::after
+{
+    visibility: hidden !important;
+}
+    </style>
+</head>
+<body>
+    <h1 class="title">TICKETS IN NEW YORK</h1>
+    <div class="content">
+        <div class="button-group">
+            <div class="category"> Colors </div>
+            <div class="subcategories">
+                <button onclick="filterImages('White')">White</button>
+                <button onclick="filterImages('Black')">Black</button>
+                <button onclick="filterImages('Red')">Red</button>
+                <button onclick="filterImages('Yellow')">Yellow</button>
+                <button onclick="filterImages('Green')">Green</button>
+                <button onclick="filterImages('Blue')">Blue</button>
+                <button onclick="filterImages('Purple')">Purple</button>
+                <button onclick="filterImages('Pink')">Pink</button>
+            
+            </div>
+            <div class="category"> Use </div>
+            <div class="subcategories">
+                <button onclick="filterImages('Transportation')">Transportation</button>
+                <button onclick="filterImages('Sports')">Sports</button>
+                <button onclick="filterImages('Museum')">Museum</button>
+                <button onclick="filterImages('Opera')">Opera</button>
+                <button onclick="filterImages('Musical')">Musical</button>
+                <button onclick="filterImages('Cinema')">Cinema</button>
+                <button onclick="filterImages('Event')">Performance</button>
+                <button onclick="filterImages('Etc')">Etc</button>
+             </div>
+             <div class="image-grid">
+                <img src="img/1.jpg" alt="Yellow Sports" class="subcategories Yellow Sports">
+                <img src="img/2.jpg" alt="Yellow Museum IberianPeninsula 2020s" class="subcategories Yellow Museum">
+                <img src="img/3.jpg" alt="White Sports SouthEurope 2010s" class="subcategories White Sports">
+                <img src="img/4.jpg" alt="Black Red Musical" class="subcategories Black Red Musical">
+                <img src="img/5.jpg" alt="Yellow Cinema" class="subcategories Yellow Cinema">
+                <img src="img/6.jpg" alt="Black Red Musical" class="subcategories Black Red Musical">
+                <img src="img/7.jpg" alt="White Cinema " class="subcategories White Cinema">
+                <img src="img/8.jpg" alt="White Red Cinema" class="subcategories White Red Cinema">
+                <img src="img/9.jpg" alt="Black Event" class="subcategories Black Event">
+                <img src="img/10.jpg" alt="Yellow Etc" class="subcategories Yellow Etc">
+                <img src="img/11.jpg" alt="Red Sports" class="subcategories Red Sports">
+                <img src="img/12.jpg" alt="Red Sports" class="subcategories Red Sports">
+                <img src="img/13.jpg" alt="Blue Sports" class="subcategories Blue Sports">
+                <img src="img/14.jpg" alt="White Sports" class="subcategories White Sports">
+                <img src="img/15.jpg" alt="White Cinema" class="subcategories White Cinema">
+                <img src="img/16.jpg" alt="White Museum" class="subcategories White Museum">
+                <img src="img/17.jpg" alt="Red Musical" class="subcategories Red Musical">
+                <img src="img/18.jpg" alt="White Transportation" class="White Transportation">
+                <img src="img/19.jpg" alt="Yellow Musical" class="subcategories Yellow Musical">
+                <img src="img/20.jpg" alt="White Museum" class="subcategories White Museum">
+                <img src="img/21.jpg" alt="White Opera" class="subcategories White Opera">
+                <img src="img/22.jpg" alt="Yellow Opera" class="subcategories Yellow Opera">
+                <img src="img/23.jpg" alt="White Opera" class="subcategories White Opera">
+                <img src="img/24.jpg" alt=" Pink Museum" class="subcategories  Pink Museum">
+                <img src="img/25.jpg" alt="White Museum" class="subcategories White Museum">
+                <img src="img/26.jpg" alt="White Red Museum" class="subcategories White Red Museum">
+                <img src="img/27.jpg" alt="White Opera" class="subcategories White Opera">
+                <img src="img/28.jpg" alt="White Transportation" class="subcategories White Transportation">
+                <img src="img/29.jpg" alt="Black Event" class="subcategories Black Event">
+                <img src="img/30.jpg" alt="Red Event" class="subcategories Red Event">
+                <img src="img/31.jpg" alt="Yellow Red Event" class="subcategories Yellow Red Event">
+                <img src="img/32.jpg" alt="Red Transportation" class="subcategories Red Transportation">
+                <img src="img/33.jpg" alt="Black Event" class="subcategories Black Event">
+                <img src="img/34.jpg" alt="Black Musical" class="subcategories Black Musical">
+                <img src="img/35.jpg" alt="White Yellow Green Blue Red Cinema" class="subcategories White Yellow Green Blue Red Cinema">
+                <img src="img/36.jpg" alt="White Musical" class="subcategories White Musical">
+                <img src="img/37.jpg" alt="Yellow Sports" class="subcategories Yellow Sports">
+                <img src="img/38.jpg" alt="White Blue Sports" class="subcategories White Blue Sports">
+                <img src="img/39.jpg" alt="White Green Sports" class="subcategories White Green Sports">
+                <img src="img/40.jpg" alt="Purple Musical" class="subcategories Purple Musical">
+                <img src="img/41.jpg" alt="Blue Transportation" class="subcategories Blue Transportation">
+                <img src="img/42.jpg" alt="White Cinema" class="subcategories White Cinema">
+                <img src="img/43.jpg" alt="White Musical" class="subcategories White Musical">
+                <img src="img/44.jpg" alt="White Musical" class="subcategories White Musical">
+                <img src="img/45.jpg" alt="White Musical" class="subcategories White Musical">
+                <img src="img/46.jpg" alt="White Opera" class="subcategories White Opera">
+                <img src="img/47.jpg" alt="White Blue Transportation" class="subcategories White Blue Transportation">
+                <img src="img/48.jpg" alt="White Transportation" class="subcategories White Transportation">
+                <img src="img/49.jpg" alt="White Transportation" class="White Transportation">
+                <img src="img/50.jpg" alt="Yellow Green Transportation" class="subcategories Yellow Green Transportation">
+                <img src="img/51.jpg" alt="White Transportation" class="subcategories White Tran">
+                <img src="img/52.jpg" alt="Red Transportation" class="subcategories Red Transportation">
+                <img src="img/53.jpg" alt="White Red Transportation" class="subcategories White Red Transportation">
+                <img src="img/54.jpg" alt="Yellow Transportation" class="subcategories Yellow Transportation">
+                <img src="img/55.jpg" alt="White Event" class="subcategories White Event">
+                <img src="img/56.jpg" alt="White Green Event" class="subcategories White Green Event">
+                <img src="img/57.jpg" alt="White Blue Opera" class="subcategories White Blue Opera">
+                <img src="img/58.jpg" alt="White Event" class="subcategories White Event">
+                <img src="img/59.jpg" alt="Red Transportation" class="subcategories Red Transportation">
+                <img src="img/60.jpg" alt="Yellow Event" class="subcategories Yellow Event">
+                <img src="img/61.jpg" alt="Pink Event " class="subcategories Pink Event">
+                <img src="img/62.jpg" alt="Yellow Event" class="subcategories Yellow Event">
+                <img src="img/63.jpg" alt="Blue Purple Event" class="subcategories Blue Purple Event">
+                <img src="img/64.jpg" alt="White Transportation" class="subcategories White Transportation">
+                <img src="img/65.jpg" alt="White Transportation" class="subcategories White Transportation">
+                <img src="img/66.jpg" alt="White Transportation" class="subcategories White Transportation">
+                <img src="img/67.jpg" alt="White Blue Transportation" class="subcategories White Blue Transportation">
+                <img src="img/68.jpg" alt="Yellow Transportation" class="subcategories Yellow Transportation">
+                <img src="img/69.jpg" alt="White Transportation" class="subcategories White Transportation">
+                <img src="img/70.jpg" alt="Red Blue Transportation" class="subcategories Red Blue Transportation">
+                <img src="img/71.jpg" alt="Red Transportation" class="subcategories Red Transportation">
+                <img src="img/72.jpg" alt="Yellow Transportation" class="subcategories Yellow Transportation">
+                <img src="img/73.jpg" alt="Yellow Green Transportation" class="subcategories Yellow Green Transportation">
+                <img src="img/74.jpg" alt="Yellow Blue Transportation" class="subcategories Yellow Blue Transportation">
+                <img src="img/75.jpg" alt="Pink Event" class="subcategories Pink Event">
+                <img src="img/76.jpg" alt="Pink Event" class="subcategories Pink Event">
+                <img src="img/77.jpg" alt="White Opera" class="subcategories White Opera">
+                <img src="img/78.jpg" alt="White Opera" class="subcategories White Opera">
+                <img src="img/79.jpg" alt="White Opera" class="subcategories White Opera">
+                <img src="img/80.jpg" alt="White Opera" class="subcategories White Opera">
+                <img src="img/81.jpg" alt="White Transportation" class="subcategories White Transportation">
+                <img src="img/82.jpg" alt="Yellow Opera" class="subcategories Yellow Opera">
+                <img src="img/83.jpg" alt="White Museum" class="subcategories White Museum">
+                <img src="img/84.jpg" alt="White Museum" class="subcategories White Museum">
+                <img src="img/85.jpg" alt="Blue Event" class="subcategories Blue Event">
+                <img src="img/86.jpg" alt="Blue Event" class="subcategories Blue Event">
+                <img src="img/87.jpg" alt="White Black Event" class="subcategories White Black Event">
+                <img src="img/88.jpg" alt="Yellow White Event" class="subcategories Yellow White Event">
+                <img src="img/89.jpg" alt="Yellow Event" class="subcategories Yellow Event">
+                <img src="img/90.jpg" alt="White Transportation" class="subcategories White Transportation">
+                <img src="img/91.jpg" alt="Yellow Blue Event" class="subcategories Yellow Blue Event">
+                <img src="img/92.jpg" alt="White Event " class="subcategories White Event">
+                <img src="img/93.jpg" alt="Red Event" class="subcategories Red Event">
+                <img src="img/94.jpg" alt="Red Event" class="subcategories Red Event">
+                <img src="img/95.JPG" alt="White Etc" class="subcategories White Etc">
+                <img src="img/96.jpg" alt="White Green Etc" class="subcategories White Green Etc">
+                <img src="img/97.JPG" alt="White Etc" class="subcategories White Etc">
+                <img src="img/98.JPG" alt="White Event" class="subcategories White Event">
+                <img src="img/99.JPG" alt="White Purple Event" class="subcategories White Purple Event">
+                <img src="img/100.JPG" alt="Blue Event" class="subcategories Blue Event">
+            </div>
+        </div>
+    </div>
+    <script class="__web-inspector-hide-shortcut__">
+        
+        function filterImages(category) {
+            const images = document.querySelectorAll('.image-grid img');
+
+            images.forEach(img => {
+                if (category === 'all') {
+                    img.classList.remove('hidden');
+                } else {
+                    if (img.classList.contains(category)) {
+                        img.classList.remove('hidden');
+                    } else {
+                        img.classList.add('hidden');
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
